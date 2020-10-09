@@ -1,1 +1,0 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/d90cmjpcbilmweog?svg=true)](https://ci.appveyor.com/project/agasferon/aqa-task-5-patterns-part-1)
