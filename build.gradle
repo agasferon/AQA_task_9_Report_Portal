@@ -26,6 +26,7 @@ dependencies {
 }
 
 test {
+    testLogging.showStandardStreams = true
     useJUnitPlatform()
     systemProperty 'selenide.headless', System.getProperty('selenide.headless')
     systemProperty 'junit.jupiter.extensions.autodetection.enabled', true
