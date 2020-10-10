@@ -4,8 +4,6 @@ import com.epam.reportportal.junit5.ReportPortalExtension;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.EnumSource;
 import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Condition.*;
@@ -15,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static ru.netology.DataGenerator.CreateUser.*;
 import static ru.netology.DataGenerator.RandomiseDate.getDateIncrement;
 import static ru.netology.DataGenerator.RandomiseDate.getTomorrowDate;
-
 
 class RegistrationTest {
     public User randomUser;
